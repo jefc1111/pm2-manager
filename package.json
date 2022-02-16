@@ -1,0 +1,14 @@
+{
+  "name": "pm2-manager",
+  "version": "1.0.0",
+  "description": "Facilitate retrieval of pm2 config via http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geoff Clayton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
