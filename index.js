@@ -20,7 +20,10 @@ app.get('/', (req, res) => {
         return {
 	  name: p.name,
           pid: p.pid,
-          monit: p.monit
+          monit: p.monit,
+          args: p.pm2_env.args,
+          discord_username: p.pm2_env.env.ZENBOT_DISCORD_USERNAME,
+          port: p.pm2_env.env.ZENBOT_API_PORT,
         }
       }))
     })
